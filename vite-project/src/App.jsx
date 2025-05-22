@@ -1,7 +1,13 @@
+import Chinmaya from "./Chinmaya"
 
 function App() {
+  const name="Chinmaya Kolhe"
   return (
-    <h1>Chinmaya Kolhe</h1>
+    <>
+    <Chinmaya />
+    <h1>My App</h1>
+    <p>My Name is {name}</p>
+    </>
   )
 }
 
