@@ -1,0 +1,78 @@
+PS E:\React> npm create vite@latest ReactRouter -- --template react      
+
+> npx
+> create-vite ReactRouter react
+
+│
+◇  Package name:
+│  reactrouter
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in E:\React\ReactRouter...
+│
+└  Done. Now run:
+
+  cd ReactRouter
+  npm install
+  npm run dev
+
+PS E:\React> cd ReactRouter
+PS E:\React\ReactRouter> npm install
+
+added 153 packages, and audited 154 packages in 25s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS E:\React\ReactRouter> npm install -D tailwindcss postcss autoprefixer
+
+added 5 packages, and audited 159 packages in 3s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS E:\React\ReactRouter> npm install tailwindcss @tailwindcss/vite
+
+added 19 packages, and audited 178 packages in 8s
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS E:\React\ReactRouter> npm run dev
+
+> reactrouter@0.0.0 dev
+> vite
+
+
+  VITE v6.3.5  ready in 784 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+-------------------------------------------------------------------------------
+vite_config.js- 
+import tailwindcss from '@tailwindcss/vite'
+plugins: [
+    tailwindcss(),
+    react()],
+})
+
+
+css file- @import "tailwindcss";
+
+
+
+
+-------------------------------------------------------
+For react router-
+- npm install react-router-dom
